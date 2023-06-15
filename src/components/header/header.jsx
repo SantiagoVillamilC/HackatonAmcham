@@ -1,4 +1,5 @@
 import Style from "./header.module.css";
+import image from "./OIG.jpg";
 
 function Cabecera() {
   return (
@@ -11,13 +12,14 @@ function Cabecera() {
           praesentium adipisci commodi nesciunt sapiente, consequuntur quas
           saepe quisquam labore quam!
         </p>
-        <div>Conoce más</div>
+        <div className={Style.boton}>Conoce más</div>
       </div>
       <div>
-        <img
+        {/* <img
           src="https://appb.saludcapital.gov.co/SivigilaDC/Imagenes/LOGO%20SIVIGILA.PNG"
           alt=""
-        />
+        /> */}
+        <img className={Style.imagenCabecera} src={image} alt="" />
       </div>
     </div>
   );
