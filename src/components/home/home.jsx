@@ -1,4 +1,6 @@
 import Style from "./home.module.css";
+import Grafica from "./Grafica.png";
+
 
 function Home() {
   return (
@@ -29,7 +31,7 @@ function Home() {
             </p>
           </div>
           <div className={Style.contenedorSeccionDerecha}>
-            <img className={Style.imagenTarjeta} src="" alt="grafica" />
+            <img className={Style.imagenTarjeta} src={Grafica} alt="grafica" />
             <div className={Style.contenedorTarjetas}>
               <div className={Style.Tarjetas}>Cuadro</div>
               <div className={Style.Tarjetas}>Cuadro</div>
