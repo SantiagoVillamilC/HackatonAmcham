@@ -1,0 +1,30 @@
+.contenedor{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+.contenedor ul{
+    list-style: none;
+    display: flex;
+    gap: 15%;
+    white-space: nowrap;
+    margin-top: 0;
+}
+
+.contenedorLogo{
+    grid-column: 1;
+    margin-left: 5%;
+}
+
+.contenedorLista{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
