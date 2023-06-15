@@ -5,15 +5,16 @@ import "./App.css";
 import Home from "./components/home/home";
 import NavMenu from "./components/nav/nav";
 import Cabecera from "./components/header/header";
+import ComponenteFooter from "./components/footer/footerComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
       <NavMenu />
       <Cabecera />
       <Home />
+      <ComponenteFooter/>
     </>
   );
 }
