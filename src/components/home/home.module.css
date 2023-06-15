@@ -1,7 +1,47 @@
-.contenedorEnfermedades{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    background-color: aqua;
-    text-align: center;
-    height: 5vh;
+.contenedorEnfermedades {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #00adc3;
+  text-align: center;
+  height: 5vh;
+}
+.contenedor {
+  height: 50vh;
+  width: auto;
+  background-color: azure;
+}
+
+.contenedorAnios {
+  background-color: #00adc3;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.celda {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 2rem;
+}
+
+.celda:hover {
+  background-color: #c13750;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.celda:active {
+  background-color: #c13750;
+  transform: scale(0.95);
+}
+
+.celda:focus {
+  outline: none;
+}
+
+.celda:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
