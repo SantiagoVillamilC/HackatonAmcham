@@ -3,7 +3,7 @@ function Cabecera(){
         <div>
          <h1>Salud Publica</h1>
             <h2>Enfermedades</h2>
-            <img src="https://th.bing.com/th/id/OIP.tZIO47-MvHLsS1gBsx21agHaBV?pid=ImgDet&rs=1" alt="" />
+            <img src="https://appb.saludcapital.gov.co/SivigilaDC/Imagenes/LOGO%20SIVIGILA.PNG" alt="" />
 
         </div>
     )
