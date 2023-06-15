@@ -6,16 +6,16 @@
   height: 5vh;
 }
 .contenedor {
-  height: 60vh;
+  height: 80vh;
   width: auto;
-  background-color: brown;
+  background-color: #e6e6e6;
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-top: 1%;
 }
 
 .imagenTarjeta{
-    height: 30vh;
+    height: 40vh;
     width: auto;
     background-color: black;
 }
@@ -24,7 +24,7 @@
     padding: 5%;
 }
 .contenedorSeccionDerecha{
-    padding: 5%;
+    /* padding: 5%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,6 +42,9 @@
     width: 15vw;
     margin-top: 5%;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorAnios {
@@ -66,7 +69,7 @@
 }
 
 .celda:active {
-  background-color: #c13750;
+  background-color: #C13750;
   transform: scale(0.95);
 }
 
