@@ -32,11 +32,11 @@ function Home() {
           </div>
           <div className={Style.contenedorSeccionDerecha}>
             <img className={Style.imagenTarjeta} src={Grafica} alt="grafica" />
-            <div className={Style.contenedorTarjetas}>
+            {/* <div className={Style.contenedorTarjetas}>
               <div className={Style.Tarjetas}>Cuadro</div>
               <div className={Style.Tarjetas}>Cuadro</div>
               <div className={Style.Tarjetas}>Cuadro</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
